@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <script src="https://kit.fontawesome.com/a96a1f8e1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body> 
+    <div>
+        <header>
+            <a href="index.html"><i class="fa-solid fa-burger"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="https://twitter.com/nicolas_cabrer"><img src="/mi_primera_web/formulario/logos/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://web.whatsapp.com/"><img src="/mi_primera_web/formulario/logos/wpp.png" alt="WhatsApp"></a></li>
+                    <li><a href="https://www.instagram.com/nico_cabrera01/"><img src="/mi_primera_web/formulario/logos/instagram.jpg" alt="Instagram"></a></li>
+                    <li><a href="http://127.0.0.1:5500/mi_primera_web/formulario/formulario.html">Formulario de contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main id="seccion-principal">
+        <section class="seccion1">
+            <div class="acerca-de-mi">
+                <h2>Acerca de mí</h2>
+                    <p class="parrado1">¡Bienvenido a mi página! Aquí aprenderás sobre mí.</p>
+                    <p class="parrafo2">Me llamo Nicolás, soy oriundo de la provincia de Mendoza y vivo en Lujan de Cuyo. Soy hincha del Mendoza Rugby Club y me encantan los sábados de club. Estoy aprendiendo a programar porque me dio curiosidad y justo mi universidad estaba promocionando el curso.</p>
+                <img src="imagenes/WhatsApp Image 2024-04-16 at 22.23.35.jpeg" alt="imagen personal">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="mas-info"> 
+                <h2>Un poco más de info</h2>
+                <p>Actualmente me encuentro cursando el 5to año de la carrera de medicina en la Universidad Nacional de Cuyo.</p>
+                <p>Soy el cocinero de la casa, tranquilamente podría estar calificado para trabajar en algún restaurante caro de la ciudad (chiste).</p>
+                <p>El gato que está en la foto se llama Malbec o Gato Palmera o Sergio, tiene tantos estilos.</p>   
+            </div>
+            <img src="imagenes/WhatsApp Image 2024-04-16 at 22.33.18.jpeg" alt="imagen del carrete">
+        </section>
+    </main>
+    <button id="btn-generar">Generar Frase Aleatoria</button>
+    <footer id="footer">
+        <p id="frase"></p>
+    </footer>
+</body>
+</html>
